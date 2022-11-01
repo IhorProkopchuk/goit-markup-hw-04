@@ -303,7 +303,6 @@ img {
     display: flex;
     align-items: center;
     justify-items: center;
-    outline: 2px dotted pink;
     width: 270px;
     height: 120px;
     background-color:#F5F4FA;
@@ -311,9 +310,7 @@ img {
 }
 
 .about-icons {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
 }
 
 
