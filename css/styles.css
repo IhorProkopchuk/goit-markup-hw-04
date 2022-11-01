@@ -497,6 +497,17 @@ img {
 
 /* FOOTER */
 
+.container-ft {
+    display:flex;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px dashed red;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .footer-style {
     background-color: var(--brand-plate-clr);
     padding: 60px 0;
@@ -542,6 +553,9 @@ img {
     color: var(--brand-color-main);
 }
 
+.join-us {
+    margin-left: 70px;
+}
 .footer-join {
     font-family: 'Roboto';
     font-weight: 700;
