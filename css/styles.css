@@ -422,6 +422,7 @@ img {
     line-height: 1.16;
     color: var(--brand-plate-clr);
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .clients-list {
@@ -442,18 +443,21 @@ img {
     color: #AFB1B8;
 }
 
-.clients-icon {
-    fill: #AFB1B8;
-}
-
-.clients-icon:hover, .clients-icon:focus {
-    fill: var(--brand-color-main);
-}
-
 .clients-link:hover, .clients-link:focus {
     border: 1px solid var(--brand-color-main);
     border-radius: 4px;
     color: var(--brand-color-main);
+}
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-link:hover .clients-icon {
+    fill: var(--brand-color-main);
+}
+
+.clients-link:focus .clients-icon {
+    fill: var(--brand-color-main);
 }
 
 /*ARTWORKS*/
