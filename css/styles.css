@@ -42,7 +42,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    /*outline: 2px dashed red;*/
+    outline: 2px dashed red;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -68,23 +68,18 @@ img {
     margin-right: 50px;
 }
 
-/*.header-item-last {
-    padding: 32px 0;
-}*/
 
 .nav-list {
     display:flex;
     align-items: center;
-    /*margin-top: 32px;*/
     margin-right: 0px;
-    /*margin-bottom: 32px;*/
     margin-left: 90px;
 
 }
 
 .logo {
     text-decoration: none;
-    /*margin: 24px 93px 25px 0;*/
+
 }
 
 .logo-web {
@@ -109,9 +104,8 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--brand-txt-clr);
+    padding-bottom: 32px;
 }    
-
-
 
 .header-nav-link:hover, .header-nav-link:focus {
     color: var(--brand-color-main);
@@ -121,11 +115,13 @@ img {
     margin-left: auto;
 }
 
-.header-contacts-tel {
+.header-contacts-email {
     margin-right: 50px;
 }
 
 .header-contacts-email, .header-contacts-tel {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-family: 'Roboto';
     font-weight: 500;
@@ -133,6 +129,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--brand-color-alt);
     padding: 32px 0;
+    outline: 2px dashed teal;
 }    
 
 
@@ -144,13 +141,41 @@ img {
     color: var(--brand-color-main);
 }
 
+.header-icon {
+    display:inline-flex;
+    align-items: center;
+    justify-items: center;
+    fill: var(--brand-color-alt);
+
+}
+
+.header-icon:hover .icon-enveloper, .header-icon:focus .icon-enveloper {
+    display:inline-flex;
+    align-items: center;
+    justify-items: center;
+    fill: var(--brand-color-main);
+}
 /* ORDER */ 
 
 .order {
-    background-color: var(--brand-plate-clr);
+    /*background-color: var(--brand-plate-clr);*/
     text-align: center;
     padding: 200px 0;
 }
+
+.order-img {
+    background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .order-title {
     font-family: 'Roboto';
     font-weight: 900;
