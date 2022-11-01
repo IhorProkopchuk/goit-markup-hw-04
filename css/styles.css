@@ -120,6 +120,10 @@ img {
     margin-right: 50px;
 }
 
+.active-link {
+    color: var(--brand-color-main);
+}
+
 .header-contacts-email, .header-contacts-tel {
     display: flex;
     align-items: center;
@@ -130,37 +134,42 @@ img {
     letter-spacing: 0.02em;
     color: var(--brand-color-alt);
     padding: 32px 0;
-    outline: 2px dashed teal;
 }    
 
 
-.header-contacts-tel:hover, .header-contacts-tel:focus, .header-contacts-email:hover, .header-contacts-email:focus {
+.header-contacts-tel:hover, .header-contacts-tel:focus, 
+.header-contacts-email:hover, .header-contacts-email:focus {
     color: var(--brand-color-main);
 }
 
-.active-link {
-    color: var(--brand-color-main);
-}
 
-.header-icon {
+.envelope-icon, .smartphone-icon {
     display:inline-flex;
     align-items: center;
     justify-items: center;
+    margin-right: 10px;
     fill: var(--brand-color-alt);
-
 }
 
-.header-icon:hover .icon-enveloper, .header-icon:focus .icon-enveloper {
-    display:inline-flex;
-    align-items: center;
-    justify-items: center;
+.header-contacts-email:hover .envelope-icon  {
+    fill: var(--brand-color-main);
+}
+
+.header-contacts-email:focus .envelope-icon {
+    fill: var(--brand-color-main);
+}
+
+.header-contacts-tel:hover .smartphone-icon {
+    fill: var(--brand-color-main);
+}
+
+.header-contacts-tel:focus .smartphone-icon {
     fill: var(--brand-color-main);
 }
 
 /* ORDER */ 
 
 .order {
-    /*background-color: var(--brand-plate-clr);*/
     text-align: center;
     padding: 200px 0;
 }
