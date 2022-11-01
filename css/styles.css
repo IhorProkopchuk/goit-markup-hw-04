@@ -383,7 +383,36 @@ img {
     text-align: center;
 
 }
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
 
+.socials-link:hover, .socials-link:focus {
+    background-color: var(--brand-color-main);
+}
+
+.socials-icon {
+    fill: #AFB1B8;
+}
+
+.socials-link:hover .socials-icon {
+    fill: #FFFFFF;
+}
+.socials-link:focus .socials-icon {
+    fill: #FFFFFF;
+}
 /*ARTWORKS*/
 
 .artworks-list {
