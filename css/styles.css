@@ -413,6 +413,17 @@ img {
 .socials-link:focus .socials-icon {
     fill: #FFFFFF;
 }
+
+/*CLIENT*/
+.client-main {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--brand-plate-clr);
+    text-align: center;
+}
+
 /*ARTWORKS*/
 
 .artworks-list {
