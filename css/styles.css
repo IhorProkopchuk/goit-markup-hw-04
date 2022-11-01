@@ -415,13 +415,45 @@ img {
 }
 
 /*CLIENT*/
-.client-main {
+.clients-main {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: var(--brand-plate-clr);
     text-align: center;
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+}
+
+.clients-icon {
+    fill: #AFB1B8;
+}
+
+.clients-icon:hover, .clients-icon:focus {
+    fill: var(--brand-color-main);
+}
+
+.clients-link:hover, .clients-link:focus {
+    border: 1px solid var(--brand-color-main);
+    border-radius: 4px;
+    color: var(--brand-color-main);
 }
 
 /*ARTWORKS*/
