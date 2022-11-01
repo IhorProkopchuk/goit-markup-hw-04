@@ -299,7 +299,7 @@ img {
 
 /*ABOUT*/
 
-.about-icons {
+.about-bg {
     display: flex;
     align-items: center;
     justify-items: center;
@@ -308,6 +308,12 @@ img {
     height: 120px;
     background-color:#F5F4FA;
     margin-bottom: 30px;
+}
+
+.about-icons {
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
