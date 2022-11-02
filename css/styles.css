@@ -146,13 +146,13 @@ img {
     padding-top: 32px;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
-    color: var(--brand-color-main);
+.env-icon, .tel-icon {
+    fill: #AFB1B8;
+    margin-right: 10px;
 }
 
-.env-icon, .tel-icon {
-    margin-right: 10px;
+.contacts-link:hover, .contacts-link:focus {
+    color: var(--brand-color-main);
 }
 
 .contacts-link:hover .env-icon {
