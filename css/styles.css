@@ -150,6 +150,7 @@ img {
 }
 
 .env-icon, .tel-icon {
+    fill: #757575;
     margin-right: 10px;
 }
 
