@@ -42,7 +42,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    outline: 2px dashed red;
+    /*outline: 2px dashed red;*/
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -132,6 +132,9 @@ img {
     margin-left: 50px;
 }
 
+.contacts-item {
+    margin-right: 10px;
+}
 .contacts-link {
     display:flex;
     text-decoration: none;
@@ -147,7 +150,6 @@ img {
 }
 
 .env-icon, .tel-icon {
-    fill: #AFB1B8;
     margin-right: 10px;
 }
 
@@ -156,19 +158,19 @@ img {
 }
 
 .contacts-link:hover .env-icon {
-    fill: var(--brand-color-main);
+    stroke: var(--brand-color-main);
 }
 
 .contacts-link:focus .env-icon {
-    fill: var(--brand-color-main);
+    stroke: var(--brand-color-main);
 }
 
 .contacts-link:hover .tel-icon {
-    fill: var(--brand-color-main);
+    stroke: var(--brand-color-main);
 }
 
 .contacts-link:focus .tel-icon {
-    fill: var(--brand-color-main);
+    stroke: var(--brand-color-main);
 }
 
 /* ORDER */ 
