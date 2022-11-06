@@ -159,19 +159,19 @@ img {
 }
 
 .contacts-link:hover .env-icon {
-    stroke: var(--brand-color-main);
+    fill: var(--brand-color-main);
 }
 
 .contacts-link:focus .env-icon {
-    stroke: var(--brand-color-main);
+    fill: var(--brand-color-main);
 }
 
 .contacts-link:hover .tel-icon {
-    stroke: var(--brand-color-main);
+    fill: var(--brand-color-main);
 }
 
 .contacts-link:focus .tel-icon {
-    stroke: var(--brand-color-main);
+    fill: var(--brand-color-main);
 }
 
 /* ORDER */ 
